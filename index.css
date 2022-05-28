@@ -1,0 +1,511 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: black;
+}
+
+* li {
+    list-style: none;
+}
+
+* a {
+    color: black;
+    text-decoration: none;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding: 2em 0;
+    margin-bottom: 5em;
+}
+
+.nav-wrapper {
+    width: 100%;
+    max-width: 90em;
+    padding: 0 1em;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.nav-logo {
+    width: 100%;
+    max-width: 10em;
+}
+
+.nav-content {
+    width: 100%;
+    max-width: 20em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-content ul {
+    width: 100%;
+    max-width: 20em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* =====================SECTION-1=========================== */
+
+.wrapper {
+    width: 100%;
+    max-width: 90em;
+    margin-bottom: 6em;
+}
+
+.section-container {
+    width: 100%;
+    max-width: 90em;
+    padding: 0 1em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+
+.section-image {
+    width: 100%;
+    max-width: 40em;
+}
+
+.section-content {
+    width: 100%;
+    max-width: 40em;
+}
+
+.section-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+.section-para {
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+
+}
+
+.section-input {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.section-input input,
+.section-input button {
+    padding: 1em 2em;
+}
+
+.section-input input {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    width: 25em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-input button {
+    width: 15em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+/* ===============SECTIO-2-======================= */
+
+.background {
+    width: 100%;
+}
+
+.container-curve {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 {
+    background-color: hsl(240, 75%, 98%);
+    width: 100%;
+    padding: 0 1em;
+    padding-bottom: 8em;
+}
+
+.section-2-container {
+    width: 100%;
+    max-width: 90em;
+    padding: 0 1em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3em;
+}
+
+.section-2-image {
+    width: 100%;
+    max-width: 40em;
+    transform: translateX(0);
+}
+
+.section-2-content {
+    width: 100%;
+    max-width: 45em;
+}
+
+.section-2-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    line-height: 2em;
+    margin-bottom: 1em;
+}
+
+.section-2-para {
+    line-height: 1.5em;
+}
+
+.section-2-para p {
+    margin-bottom: 1.5em;
+}
+
+.section-link {
+    width: 100%;
+    max-width: 12em;
+    line-height: 1em;
+    cursor: pointer;
+    margin-bottom: 3em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 0.5em;
+
+}
+
+.section-link a {
+    color: hsl(170, 45%, 43%);
+}
+
+hr {
+    color: hsl(170, 45%, 43%);
+    font-weight: bolder;
+}
+
+.section-box {
+    background-color: #fff;
+    width: 100%;
+    max-width: 25em;
+    border-radius: 0.5em;
+    padding: 2em;
+}
+
+.section-box-image {
+    margin-bottom: 1em;
+}
+
+.section-box-content {
+    margin-bottom: 1.5em;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1em;
+}
+
+.avatar-img {
+    width: 3em;
+    border-radius: 50%;
+}
+
+.avatar-content {
+    font-size: 0.8rem;
+}
+
+/* ================SECTION-3============================ */
+
+.wrapper-3 {
+    width: 100%;
+    background-color: hsl(238, 22%, 44%);
+    padding: 5em 0;
+}
+
+.section-3 {
+    width: 100%;
+    max-width: 90em;
+    padding: 0 1em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10em;
+}
+
+.section-3-container {
+    width: 100%;
+}
+
+.section-3-container h1 {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.section-3-container p {
+    color: #fff;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.section-3-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.section-3-input input,
+.section-3-input button {
+    padding: 1em 2em;
+}
+
+.section-3-input input {
+    border: 1px black solid;
+    border-radius: 00.5em;
+    width: 35em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-3-input button {
+    width: 15em;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    background: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+/* ==================FOOTER=============================== */
+
+.footer-wrapper {
+    width: 100%;
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer {
+    width: 100%;
+    max-width: 90em;
+    padding: 3em 1em;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    margin-bottom: 2em;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: 60em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-contact {
+    width: 100%;
+    max-width: 15em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.footer-contact-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.footer-contact-content p {
+    color: #fff;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 5em;
+}
+
+.footer-content ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.footer-content ul li {
+    color: #fff;
+}
+
+.footer-content- ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.footer-content- ul li {
+    color: #fff;
+}
+
+@media screen and (max-width: 350px) {
+    .nav-content ul {
+        gap: 0.5em;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .nav-logo {
+        width: 5em;
+    }
+
+    .nav-content{
+        width: 100%;
+        max-width: 15em;
+    }
+    .nav-content ul{
+        width: 100%;
+        max-width: 15em;
+        justify-content: flex-end;
+        gap: 2em;
+
+    }
+
+    /* ===============SECTION-1===================== */
+
+    .section-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 2em;
+    }
+
+    .section-content {
+        text-align: center;
+    }
+
+    .section-header {
+        font-size: 1rem;
+    }
+
+    .section-input {
+        flex-direction: column;
+        /* padding: 0 1em; */
+    }
+
+    .section-input input {
+        width: 100%;
+    }
+
+    .section-input button {
+        width: 100%;
+    }
+
+    /* ========================SECTION-2==================== */
+
+    .section-2-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-2-header {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .section-2-para {
+        text-align: center;
+    }
+
+    .section-link {
+        margin: auto;
+        margin-bottom: 2em;
+    }
+
+    .section-box {
+        margin: 0 auto;
+    }
+
+    /* ===============SECTION-3================ */
+
+    .section-3 {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .section-3-container {
+        text-align: center;
+    }
+
+    .section-3-input {
+        width: 100%;
+        padding: 0 1em;
+    }
+
+    .section-3-input input {
+        width: 100%;
+    }
+
+    .section-3-input button {
+        width: 100%;
+    }
+
+    /* ================FOOTER================== */
+
+    .footer-container {
+        flex-direction: column;
+        gap: 3em;
+    }
+
+}
