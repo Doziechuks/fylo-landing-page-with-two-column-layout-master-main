@@ -349,6 +349,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .footer-contact {
@@ -402,6 +403,15 @@ hr {
 @media screen and (max-width: 350px) {
     .nav-content ul {
         gap: 0.5em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .footer-container {
+        flex-direction: column;
+        gap: 3em;
+
     }
 }
 
@@ -499,13 +509,6 @@ hr {
 
     .section-3-input button {
         width: 100%;
-    }
-
-    /* ================FOOTER================== */
-
-    .footer-container {
-        flex-direction: column;
-        gap: 3em;
     }
 
 }
