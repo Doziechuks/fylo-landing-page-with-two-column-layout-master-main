@@ -349,6 +349,7 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    border: 1px red solid;
 }
 
 .footer-contact {
@@ -405,7 +406,7 @@ hr {
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 900px) {
 
     .nav-logo {
         width: 5em;
