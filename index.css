@@ -349,7 +349,6 @@ hr {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    border: 1px red solid;
 }
 
 .footer-contact {
